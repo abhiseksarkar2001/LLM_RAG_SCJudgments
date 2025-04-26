@@ -1,0 +1,75 @@
+Number of cases with actual_result = 1: 101
+Number of cases with actual_result = 0: 136
+
+# llama-3.3-70b-versatile
+LLM prediction on actual text is 69.62% similar to actual legal result
+LLM prediction on modified legal text is 51.05% similar to actual legal result
+LLM prediction on modified legal text is 63.71% similar to LLM prediction on actual text
+
+Correlation between Column 2 and Column 3: 0.39999453207764973
+Correlation between Column 2 and Column 4: 0.016928126107527183
+Correlation between Column 3 and Column 4: 0.27506592234063537
+
+Number of cases with LLM_prediction = 1: 121
+Number of cases with LLM_prediction = 0: 116
+Number of cases with Modified_text_prediction = 1: 115
+Number of cases with Modified_text_prediction = 0: 122
+
+Original LLM Accuracy: 0.70
+Original LLM Precision: 0.62
+Original LLM Recall: 0.74
+Original LLM F1 Score: 0.68
+Replaced LLM Accuracy: 0.51
+Replaced LLM Precision: 0.43
+Replaced LLM Recall: 0.50
+Replaced LLM F1 Score: 0.46
+
+Percentage of correct LLM predictions (Original): 69.62%
+Percentage of correct LLM predictions (Replaced): 51.05%
+
+
+# deepseek-r1-distill-llama-70b
+LLM prediction on actual text is 64.14% similar to actual legal result
+LLM prediction on modified legal text is 49.79% similar to actual legal result
+LLM prediction on modified legal text is 63.71% similar to LLM prediction on actual text
+
+Correlation between Column 2 and Column 3: 0.3017494476332618
+Correlation between Column 2 and Column 4: -0.009943607286964562
+Correlation between Column 3 and Column 4: 0.27946666021710276
+
+Number of cases with LLM_prediction = 1: 130
+Number of cases with LLM_prediction = 0: 107
+Number of cases with Modified_text_prediction = 1: 114
+Number of cases with Modified_text_prediction = 0: 123
+
+Original LLM Accuracy: 0.64
+Original LLM Precision: 0.56
+Original LLM Recall: 0.72
+Original LLM F1 Score: 0.63
+Replaced LLM Accuracy: 0.50
+Replaced LLM Precision: 0.42
+Replaced LLM Recall: 0.48
+Replaced LLM F1 Score: 0.45
+
+Percentage of correct LLM predictions (Original): 64.14%
+Percentage of correct LLM predictions (Replaced): 49.79%
+
+
+# mistral-saba-24b
+LLM prediction on actual text is 56.96% similar to actual legal result
+LLM prediction on modified legal text is 45.15% similar to actual legal result
+LLM prediction on modified legal text is 63.71% similar to LLM prediction on actual text
+
+Correlation between Column 2 and Column 3: 0.16916588127817708
+Correlation between Column 2 and Column 4: -0.09006753551358163
+Correlation between Column 3 and Column 4: 0.26923091651302566
+
+Number of cases with LLM_prediction = 1: 139
+Number of cases with LLM_prediction = 0: 98
+Number of cases with Modified_text_prediction = 1: 125
+Number of cases with Modified_text_prediction = 0: 112
+
+Percentage of correct LLM predictions (Original): 56.96%
+Percentage of correct LLM predictions (Replaced): 45.15%
+
+
